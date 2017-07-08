@@ -1,0 +1,31 @@
+
+
+.menuitem{
+
+    display: inline;
+    background-color: lightblue;
+    font-size: 2em;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom: 0px solid lightblue;
+    opacity: 0.75;
+    transition-property: border-bottom, opacity;
+    transition-duration: 300ms;
+    transition-timing-function: linear;
+
+}
+
+.menuitem:hover{
+border-bottom: 10px solid red;
+
+}
+
+cth{
+    color: gray;
+    border: 2px dotted royalblue;
+    margin: 1cm;
+    padding: 5px;
+}

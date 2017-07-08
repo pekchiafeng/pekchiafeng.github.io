@@ -1,0 +1,114 @@
+h1{
+    font-size: 2em;
+    color: greenyellow;
+    font-style: italic;
+    text-shadow: 3px 3px 1px gray;
+    text-decoration: underline green;
+    border: 1px solid salmon;
+    padding: 10px;
+    
+    
+}
+
+th{
+    color: purple;
+    border: 2px dotted royalblue;
+    padding: 5px;
+}
+
+td{
+    color: palevioletred;
+    border: 2px dotted goldenrod;
+    padding: 5px;
+}
+
+.redColour {
+color: firebrick
+}
+
+.blueColour {
+    color: blue
+}
+
+.my-h1{
+font-size: 2em;
+font-style: bold;
+
+}
+
+.boxblue{
+    background-color: lightsteelblue;
+    border: 2px;
+    width: 200px;
+    height: 200px; 
+}
+
+.circlepink{
+	width: 100px;
+	height: 100px;
+	background:mediumpurple;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px; 
+}
+
+.space10{
+margin-top: 2cm;
+
+}
+
+.circlegreen{
+	width: 100px;
+	height: 100px;
+	background:mediumseagreen;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	border-radius: 100px;
+    margin: 20px;
+}
+
+.circlered{
+    	width: 100px;
+	height: 100px;
+	background:maroon;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	border-radius: 100px;
+    margin: 20px;
+}
+
+.box{
+    background-color: lightcoral;
+    border: 2px blue solid;
+    border-radius: 0px;
+    width: 100px;
+    height: 100px; 
+    transition-property: border-radius, background-color;
+    transition-duration: 500ms;
+    transition-timing-function: linear;
+
+}
+
+.box:hover{
+background-color: red;
+border-radius: 150px;
+border:5px greenyellow dotted;
+}
+
+.space50{
+
+    margin-top: 5cm;
+}
+
+.riseup{
+
+font-size: 50px;
+text-shadow: 0px 0px 0px red;
+transition-property: text-shadow;
+transition-duration: 300ms;
+transition-timing-function: linear;
+}
+
+.riseup:hover{
+    text-shadow: 7px 7px 7px grey;
+}
